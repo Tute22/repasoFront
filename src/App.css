@@ -1,0 +1,40 @@
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+.active {
+  color: red;
+}
+.card {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.card img {
+  width: 200px;
+  cursor: pointer;
+}
+.img-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-who {
+  width: 350px;
+}
+.image-filter {
+  filter: blur(20px);
+}
+.btn-change button {
+  color: white;
+  font-size: 1.2rem;
+  background: green;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
